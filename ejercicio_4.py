@@ -1,19 +1,26 @@
 # construir una funcion  que reciba como parametro una lista de datos numericos y que retorne el promedio de dchos datos
 
-print("-----------------------------------")
-print("--- PROMEDIO DE UNA LISTA NÚMEROS ---")
-print("-----------------------------------")
+import random
+
+print("------------------------------")
+print("------ LISTA DE DATOS --------")
+print("------------------------------")
 
 # Definición de la función
-def promedioLista(numeros):
-    return sum(numeros) / len(numeros) if numeros else 0
+def calcular_suma_lista(lista):
+    return sum(lista)
 
 # Entrada
-numeros = list(map(int, input("Digite los números separados por espacio: ").split()))
+lista = []
+n = int(input("Ingrese el tamaño de la lista: "))
+
+for i in range(n):
+    num = random.randint(1, 100)  # Genera un número aleatorio entre 1 y 100
+    lista.append(num)
+    print(f"Número {i+1}: {num}")
 
 # Procesamiento
-resultado = promedioLista(numeros)
+suma = calcular_suma_lista(lista)
 
 # Salida
-print(f"\nEl promedio de los números es: {resultado:.2f}")
-print("\nEso era...")
+print("La suma de la lista es: ", suma)
