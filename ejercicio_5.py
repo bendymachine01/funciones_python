@@ -19,7 +19,7 @@ lista = []
 n = int(input("Ingrese el tamaño de la lista: "))
 
 for i in range(n):
-    num = random.randint(1, 100)  # Genera un número aleatorio entre 1 y 100
+    num = random.randint(1, n)  # Genera un número aleatorio entre 1 y 100
     lista.append(num)
     print(f"Número {i+1}: {num}")
 
