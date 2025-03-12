@@ -5,16 +5,16 @@ print("--- MOSTRAR CADENA N VECES ---")
 print("------------------------------")
 
 # Definición de la función
-def mostrarCadena(texto, n):
+def mostrarCadena(cadena, n):
     for i in range(1, n + 1):
-        print(f"{i}. {texto}")
+        print(f"{i}. {cadena}")
 
 # Entrada
-texto = input("Digite una cadena: ")
+cadena = input("Digite una cadena: ")
 n = int(input("Digite cuántas veces desea mostrarla: "))
 
 # Procesamiento
-mostrarCadena(texto, n)
+mostrarCadena(cadena, n)
 
 # Salida
 print("\nEso era...")
