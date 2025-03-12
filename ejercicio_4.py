@@ -1,4 +1,4 @@
-# construir una funcion  que reciba como parametro una listade dato numericos y que retorne el promedio de dchos datos
+# construir una funcion  que reciba como parametro una lista de datos numericos y que retorne el promedio de dchos datos
 
 print("-----------------------------------")
 print("--- PROMEDIO DE UNA LISTA NÚMEROS ---")
